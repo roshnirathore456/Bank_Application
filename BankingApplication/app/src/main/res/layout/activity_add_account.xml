@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/m"
+    android:layout_height="match_parent"
+    tools:context=".AddAccountActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="78dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Add Account"
+            android:textColor="#121010"
+            android:textSize="30sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <EditText
+                android:id="@+id/anum"
+                android:layout_width="270dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/txt"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="130sp"
+                android:layout_marginTop="20dp"
+                android:background="#090808"
+                android:hint="Account Number..."
+                android:padding="10dp"
+                android:textColor="#FAF7F7"
+                android:textColorHint="#ffffff" />
+            <EditText
+                android:id="@+id/aname"
+                android:layout_width="270dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/txt"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="130sp"
+                android:layout_marginTop="20dp"
+                android:background="#090909"
+                android:hint="Accoount Name..."
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="#FAF6F6"
+                android:textColorHint="#ffffff" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="270dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/txt"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="130sp"
+                android:layout_marginTop="20dp"
+                android:background="#090808"
+                android:hint="EMAIL..."
+                android:padding="10dp"
+                android:textColor="#FAF7F7"
+                android:textColorHint="#ffffff" />
+
+            <EditText
+                android:id="@+id/ifsc"
+                android:layout_width="270dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/txt"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="130sp"
+                android:layout_marginTop="20dp"
+                android:background="#090808"
+                android:hint="IFSC..."
+                android:padding="10dp"
+                android:textColor="#FAF7F7"
+                android:textColorHint="#ffffff" />
+
+            <EditText
+                android:id="@+id/phn"
+                android:layout_width="270dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/txt"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="130sp"
+                android:layout_marginTop="20dp"
+                android:background="#090808"
+                android:hint="PHONE NUM..."
+                android:padding="10dp"
+                android:textColor="#FAF7F7"
+                android:textColorHint="#ffffff" />
+            <EditText
+                android:id="@+id/amount"
+                android:layout_width="270dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/txt"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="130sp"
+                android:layout_marginTop="20dp"
+                android:background="#090808"
+                android:hint="Amount..."
+                android:padding="10dp"
+                android:textColor="#FAF7F7"
+                android:textColorHint="#ffffff" />
+
+
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="288dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/pass"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:text="Add"
+                android:textColor="#ffffff " />
+
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="120dp"
+            android:clickable="true"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

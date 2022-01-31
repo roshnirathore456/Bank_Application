@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:background="?android:attr/colorFocusedHighlight">
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:id="@+id/aname"
+        android:layout_alignParentLeft="true"
+        android:text="Account Name"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:id="@+id/anum"
+        android:layout_toRightOf="@+id/aname"
+        android:text="Account Number"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:id="@+id/amm"
+        android:layout_toRightOf="@+id/anum"
+        android:text="Ammount"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+
+
+</RelativeLayout>
